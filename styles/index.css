@@ -3,6 +3,7 @@
     padding: 0;
 }
 .Banner{
+    text-align: justify;
     background-image: url(../images/Banner\ Image.png);
     width: 1320px;
 height: 600px;
@@ -11,7 +12,6 @@ margin: 20px 50px;
 border-radius: 16px;
 }
 .text{
-    width: 632px;
     color: #FFF;
     text-align: center;
 font-family: Merriweather;
@@ -57,7 +57,7 @@ line-height: normal;
     margin: 50px 399px;
 }
 .welcome{
-    margin: 50px 100px;
+    margin: 20px 50px;
     text-align: center;
     background-image: url(../images/Vectorrr.png);
     display: flex;
@@ -133,6 +133,33 @@ flex-shrink: 0;
     height: 600px;
     background: #FFF;
 }
+.portfolio{
+    border-radius: 16px;
+    margin: 20px 50px;
+    width: 1320px;
+height: 1050px;
+flex-shrink: 0;
+}
+.portfolio-iteams{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.portfolio-text h3{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.portfolio-iteams img{
+    width: 424px;
+height: 450px;
+flex-shrink: 0;
+}
+
 .newsletter{
     margin: 20px 50px;
     width: 1320px;
@@ -140,14 +167,7 @@ height: 500px;
 text-align: center;
 flex-shrink: 0;
 border-radius: 16px;
-background: rgba(255, 0, 0, 0.05);
-}
-.newsletter button{
-    width: 648px;
-height: 72px;
-flex-shrink: 0;
-border-radius: 50px;
-background: #FFF;
+background: rgba(255, 0, 0, 0.05)
 }
 .footer-line{
     margin: 20px 50px;
@@ -157,6 +177,8 @@ flex-shrink: 0;
 background: #070211;
 }
 .footer-text{
+    columns: ;
+    display: inline;
     color: #FFF;
 font-family: Inter;
 font-size: 24px;
